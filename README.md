@@ -2,7 +2,7 @@
 
 File ditulis menggunakan bahasa pemrograman python, text editor yang saga gunakan dalam mengerjakan soal ini adalah Visual Studio Code 1.43.1 yang terhubung dengan compiler python 3.8.1.
 
-Semua file .py yang saya buat telah di coba pada online compiler repl.it (https://repl.it/languages/python3) dan bekerja dengan baik, hasil compile yang ditampilkan juga telah sesuai dengan perintah pada soal.
+Semua file .py yang saya buat telah dicoba pada online compiler repl.it (https://repl.it/languages/python3) dan bekerja dengan baik, hasil compile yang ditampilkan juga telah sesuai dengan perintah pada soal.
 
 Untuk soal nomor 6.a hasil screenshootnya saya tampilkan disini
 ![Tabel Produk](https://i.imgur.com/90qDXsK.png)

@@ -28,6 +28,8 @@ func main() {
 	soal3.Result()
 
 	// call soal nomor 4
-	soal4.GuessTheNumber(1)
-
+	err4 := soal4.GuessTheNumber(47)
+	if err4 != nil {
+		fmt.Println(err4)
+	}
 }

@@ -17,8 +17,8 @@ func (d Data) GroupData() {
 	group2 := &Data{Input: dataGroup2, Kelompok: 2}
 	group3 := &Data{Input: dataGroup3, Kelompok: 3}
 
-	fmt.Println("----------------------------------")
-	fmt.Println("Output Soal No 2")
+	fmt.Printf("\n----------------------------------\n")
+	fmt.Printf("Output Soal No 2\n\n")
 
 	group1.print()
 	group2.print()

@@ -19,8 +19,8 @@ func (p Pattern) NumberPattern() error {
 		return err
 	}
 
-	fmt.Println("-------------------------")
-	fmt.Println("Output Soal No 1")
+	fmt.Println("\n-------------------------")
+	fmt.Printf("Output Soal No 1\n\n")
 
 	for i := 0; i < len(arr); i++ {
 		val := (arr[i]) * int(math.Pow10(len(arr)-(i+1)))

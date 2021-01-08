@@ -16,11 +16,11 @@ type word struct {
 
 // Result ...
 func (s StringInput) Result() {
-	fmt.Println("------------------------------")
+	fmt.Printf("\n------------------------------\n")
 	fmt.Println("Output Soal No 3")
 
 	s.CountLetter()
-	fmt.Println("\nGeser sebanyak 5 karakter:\n")
+	fmt.Printf("\nGeser sebanyak 5 karakter:\n")
 	fmt.Println(s.shiftLetter())
 }
 

@@ -98,9 +98,7 @@ Ketika mengimport package maka nama package akan menjadi titik untuk mengakses k
 
 #### Initialization
 ##### Variabel
-```golang
-import 
-```
+
 variabel dapat ditulis dengan
 ```golang
 var (

@@ -1,6 +1,5 @@
 import re
 
-#Function userNameCheck
 def usernameCheck(name):
     if (len(name)) < 5 or (len(name)) > 7:
         return False
@@ -11,7 +10,6 @@ def usernameCheck(name):
             else:
                 return True
 
-#Function passwordCheck
 def passwordCheck(password):
     hKecil = re.findall("[a-z]", password)
     hBesar = re.findall("[A-Z]",password)
@@ -23,6 +21,5 @@ def passwordCheck(password):
         return True
 
 
-#Percobaan function
 print(usernameCheck("riz"))
-print(passwordCheck("R!zky43@q"))
+print(passwordCheck("Rizky43@q"))

@@ -44,4 +44,4 @@ def groupNumber(input):
                 print(listInput[i],end='')
 
 #percobaan
-groupNumber("41kjk1341lkf939 a'fla9 340 kjf983dg558 ;;kfijp")
+groupNumber("41kjk1341lkf939 a'fla9 340 kjf983dg558 ;;kfijp087")

@@ -1,6 +1,6 @@
 #Function triangle
 def triangle(baris):
-    if (type(baris) != int) or (baris < 1):
+    if (type(baris) != int) or (baris < 0):
         print('Parameter harus angka dan positif!')
         return
         
@@ -10,4 +10,4 @@ def triangle(baris):
         print('\n')
 
 #Test function
-triangle(0)
+triangle(10)

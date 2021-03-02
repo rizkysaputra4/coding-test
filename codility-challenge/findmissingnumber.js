@@ -24,8 +24,8 @@ function solution(A) {
 
 function missingNum(Arr, left, right) {
   while (true) {
-    let correctNum = Arr[left] + Math.floor((Arr[right] - 1 - Arr[left]) / 2); // 8 + (10 - 1 - 8 / 2)
     let mid = left + Math.floor((right - left) / 2);
+    let correctNum = mid + 1; //Arr[left] + Math.floor((Arr[right] - 1 - Arr[left]) / 2); // 8 + (10 - 1 - 8 / 2)
     console.log(
       `CorrectNum: ${correctNum}, Left: ${left}, Right: ${right}, MidIndex: ${mid}, MidVal: ${Arr[mid]}`
     );

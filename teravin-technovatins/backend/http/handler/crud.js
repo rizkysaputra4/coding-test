@@ -96,7 +96,7 @@ function editEmployee(req, res) {
             birthdate = '${birthdate}'
         WHERE employee_id = '${employeeID}'
         RETURNING *;`;
-  console.log(query);
+
   DB.query(query, (err, result) => {
     if (err) {
       return res.status(500).json(err.detail);

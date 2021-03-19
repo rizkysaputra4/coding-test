@@ -1,6 +1,15 @@
 var express = require("express");
 var app = express();
+var cors = require("cors");
 require("dotenv").config({ path: __dirname + "/.env" });
+
+const corsOption = {
+  origin: "*",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
+};
+app.use(cors(corsOption));
 
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
